@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-export default function GetInTouchPage() {
+function SuccessMessage() {
   const searchParams = useSearchParams();
   const [showSuccess, setShowSuccess] = useState(false);
 
@@ -15,6 +15,16 @@ export default function GetInTouchPage() {
     }
   }, [searchParams]);
 
+  if (!showSuccess) return null;
+
+  return (
+    <div className="bg-green-500 text-white p-4 rounded-lg mb-4 text-center animate-slideDown">
+      ✓ Thank you! Your message has been sent to info@thetickertipper.com
+    </div>
+  );
+}
+
+function GetInTouchContent() {
   return (
     <>
       {/* Hero */}
@@ -32,11 +42,9 @@ export default function GetInTouchPage() {
           <div className="bg-white p-12 rounded-2xl shadow-xl">
             <h2 className="text-dark mb-6 text-3xl">Send Us a Message</h2>
 
-            {showSuccess && (
-              <div className="bg-green-500 text-white p-4 rounded-lg mb-4 text-center animate-slideDown">
-                ✓ Thank you! Your message has been sent to info@thetickertipper.com
-              </div>
-            )}
+            <Suspense fallback={null}>
+              <SuccessMessage />
+            </Suspense>
 
             <form className="flex flex-col gap-6" action="https://formsubmit.co/info@thetickertipper.com" method="POST">
               {/* FormSubmit Configuration */}
@@ -240,4 +248,8 @@ export default function GetInTouchPage() {
       </footer>
     </>
   );
+}
+
+export default function GetInTouchPage() {
+  return <GetInTouchContent />;
 }
