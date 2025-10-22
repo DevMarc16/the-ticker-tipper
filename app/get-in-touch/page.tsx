@@ -183,7 +183,7 @@ export default function GetInTouchPage() {
           <div className="bg-gray-50 p-6 rounded-xl mb-4 border-l-4 border-gold">
             <h3 className="text-dark mb-2 text-xl">How quickly will I receive a response?</h3>
             <p className="text-gray-600">
-              We typically respond to all inquiries within 24 hours during business days. For new trial signups, we'll reach out immediately to get started on your custom scanner.
+              We typically respond to all inquiries within 24 hours during business days. For new trial signups, we&apos;ll reach out immediately to get started on your custom scanner.
             </p>
           </div>
 
