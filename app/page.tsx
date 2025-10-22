@@ -78,7 +78,7 @@ export default function HomePage() {
             </div>
             <h3 className="text-2xl text-dark mb-4">Share Your Criteria</h3>
             <p className="text-gray-600 leading-relaxed">
-              Tell us what you're looking for in stocks - technical indicators, fundamentals, price action, or any combination.
+              Tell us what you&apos;re looking for in stocks - technical indicators, fundamentals, price action, or any combination.
             </p>
           </div>
 

@@ -21,7 +21,7 @@ export default function GetInTouchPage() {
       <div className="bg-gradient-to-br from-dark-light to-dark text-white py-20 px-8 text-center">
         <h1 className="text-6xl mb-4 text-gold">Get In Touch</h1>
         <p className="text-2xl max-w-3xl mx-auto">
-          Ready to transform your trading with custom scanners? We're here to help.
+          Ready to transform your trading with custom scanners? We&apos;re here to help.
         </p>
       </div>
 
@@ -88,7 +88,7 @@ export default function GetInTouchPage() {
 
               <div className="flex flex-col">
                 <label htmlFor="interest" className="mb-2 text-dark font-semibold">
-                  I'm Interested In *
+                  I&apos;m Interested In *
                 </label>
                 <select
                   id="interest"
@@ -158,7 +158,7 @@ export default function GetInTouchPage() {
                 <span className="text-2xl">🎯</span> What to Include
               </h3>
               <p className="ml-8">Your trading style and timeframe</p>
-              <p className="ml-8">Specific criteria you're looking for</p>
+              <p className="ml-8">Specific criteria you&apos;re looking for</p>
               <p className="ml-8">Any technical indicators you prefer</p>
             </div>
 
@@ -211,14 +211,14 @@ export default function GetInTouchPage() {
           <div className="bg-gray-50 p-6 rounded-xl mb-4 border-l-4 border-gold">
             <h3 className="text-dark mb-2 text-xl">What platforms do your scanners work with?</h3>
             <p className="text-gray-600">
-              We build custom scanners that work with most major platforms including ThinkOrSwim, TradingView, and others. We'll discuss your platform preferences during setup.
+              We build custom scanners that work with most major platforms including ThinkOrSwim, TradingView, and others. We&apos;ll discuss your platform preferences during setup.
             </p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-gold">
             <h3 className="text-dark mb-2 text-xl">Do you offer refunds?</h3>
             <p className="text-gray-600">
-              Yes! We offer a 30-day money-back guarantee on all paid plans. If you're not satisfied within the first 30 days, we'll refund your subscription in full.
+              Yes! We offer a 30-day money-back guarantee on all paid plans. If you&apos;re not satisfied within the first 30 days, we&apos;ll refund your subscription in full.
             </p>
           </div>
         </div>

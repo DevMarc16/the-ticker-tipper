@@ -123,7 +123,7 @@ export default function PromoPage() {
               </ul>
             </div>
             <div className="bg-white/10 p-8 rounded-2xl backdrop-blur border border-white/20">
-              <h3 className="text-2xl mb-4 text-gold">What's Included</h3>
+              <h3 className="text-2xl mb-4 text-gold">What&apos;s Included</h3>
               <ul className="list-none space-y-3">
                 <li className="pl-6 relative before:content-['✓'] before:absolute before:left-0 before:text-green-400 before:font-bold before:text-xl">
                   1 active custom scanner
@@ -148,7 +148,7 @@ export default function PromoPage() {
         {/* Testimonial */}
         <div className="bg-white rounded-3xl p-12 mb-12 shadow-xl text-center animate-on-scroll">
           <p className="text-2xl italic text-gray-700 mb-6 leading-relaxed">
-            "I tested 3 different scanning strategies during my free trial. By day 5, I found exactly what I needed and upgraded immediately. The custom code is worth every penny."
+            &ldquo;I tested 3 different scanning strategies during my free trial. By day 5, I found exactly what I needed and upgraded immediately. The custom code is worth every penny.&rdquo;
           </p>
           <p className="text-gold font-bold text-xl">- Michael R., Day Trader</p>
         </div>
@@ -157,7 +157,7 @@ export default function PromoPage() {
         <div className="bg-gradient-to-br from-red-500 to-red-600 rounded-3xl p-10 text-center text-white mb-12 shadow-xl animate-on-scroll">
           <h3 className="text-4xl mb-4">🔥 Why Start Today?</h3>
           <p className="text-2xl mb-8">
-            The market doesn't wait, and neither should you. Start scanning smarter stocks tomorrow morning.
+            The market doesn&apos;t wait, and neither should you. Start scanning smarter stocks tomorrow morning.
           </p>
           <Link href="/get-in-touch" className="inline-block bg-white text-red-600 px-12 py-5 rounded-full font-bold text-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
             Claim Your Free Trial
